@@ -27,11 +27,11 @@ endef
 # TAG is the git tag or branch to checkout
 # Projects will be started in this order
 define SUBPROJECT_REPOS
-https://github.com/reactioncommerce/reaction-hydra.git,reaction-hydra,v3.0.0 \
-https://github.com/reactioncommerce/reaction.git,reaction,v3.7.1 \
-https://github.com/reactioncommerce/reaction-identity.git,reaction-identity,v3.0.0 \
-https://github.com/reactioncommerce/reaction-admin.git,reaction-admin,v3.0.0-beta.7 \
-https://github.com/reactioncommerce/example-storefront.git,example-storefront,v3.0.0
+https://github.com/cp-venture/reaction-hydra.git,reaction-hydra,v3.0.0 \
+https://github.com/cp-venture/reaction.git,reaction,v3.7.1 \
+https://github.com/cp-venture/reaction-identity.git,reaction-identity,v3.0.0 \
+https://github.com/cp-venture/reaction-admin.git,reaction-admin,v3.0.0-beta.7 \
+https://github.com/cp-venture/example-storefront.git,example-storefront,v3.0.0
 endef
 
 # These are all the plugins that `make clone-api-plugins` will clone.
